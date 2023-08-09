@@ -18,7 +18,7 @@ export default function Navbar() {
   return (
     <nav className="py-4 px-6 text-sm font-medium ">
       <ul className="flex space-x-3 justify-center">
-        <NavLink id="home" to="/"  className={({isActive}) => [className, isActive ? "!bg-green-500" : null, ].filter(Boolean).join(" ")}>
+        <NavLink id="home" to="/portfolio-react-tailwindcss"  className={({isActive}) => [className, isActive ? "!bg-green-500" : null, ].filter(Boolean).join(" ")}>
           <img className="h-5 icon dark:invert mr-1" src={houseicon} alt="" />
           <span className="text-black dark:text-white">Home</span>
         </NavLink>

@@ -14,7 +14,7 @@ function App() {
         <BrowserRouter>
           <Navbar />
           <Routes>
-            <Route element={<Home/>} path="/" ></Route>
+            <Route element={<Home/>} path="/portfolio-react-tailwindcss" ></Route>
             <Route element={<Playground/>} path="/playground" ></Route>
             <Route element={<Projects/>} path="/projects" ></Route>
             <Route element={<Courses/>} path="/courses" ></Route>
