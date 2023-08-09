@@ -1,0 +1,38 @@
+[
+    {
+        "courseId": 0,
+        "title": "JavaScript Algorithms & Data Structures",
+        "date": "July 2023",
+        "body": "This course contains the fundamentals of JavaScript and then teaches Data Structures, Algorithim Scripting and different programming styles in Object Orientated Programming and Functional Programming",
+        "tags": ["ES6", "Object Orientated Programming", "Functional Programming", "Algorithm Scripting"],
+        "link": "https://www.freecodecamp.org/certification/evoation/front-end-development-libraries",
+        "provider": "fcc"
+    },
+    {
+        "courseId": 1,
+        "title": "Front End Development Libraries",
+        "date": "July 2023",
+        "body": "This course teaches different front end tools such as SCSS and bootstrap to effectiely style CSS. It also covers multiple JavaScript frameworks including jQuery, React.js and Redux.js",
+        "tags": ["React.js", "Redux.js", "jQuery","SCSS", "Bootstrap"],
+        "link": "https://www.freecodecamp.org/certification/evoation/front-end-development-libraries",
+        "provider": "fcc"
+    },
+    {
+        "courseId": 2,
+        "title": "Java Programming I",
+        "date": "August 2021",
+        "body": "Sample Text",
+        "tags": ["Java", "Object Orientated Programming"],
+        "link": "https://certificates.mooc.fi/validate/ad9nnsau4ub",
+        "provider": "mooc"
+    },
+    {
+        "courseId": 3,
+        "title": "Java Programming II",
+        "date": "August 2021",
+        "body": "Sample Text",
+        "tags": ["Java", "Object Orientated Programming"],
+        "link": "https://certificates.mooc.fi/validate/ad9nnsau4ub",
+        "provider": "mooc"
+    }
+]
