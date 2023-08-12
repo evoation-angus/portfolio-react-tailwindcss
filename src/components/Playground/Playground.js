@@ -2,8 +2,8 @@ import Calculator from "./Calculator";
 
 export default function Playground() {
   return (
-    <div className="bg-gradient-to-tr from-white to-green-300 dark:bg-gradient-to-tr dark:from-black dark:to-green-900 min-h-screen py-10">
-      <div className="px-20">
+    <div className="pt-16 bg-gradient-to-tr from-white to-green-300 dark:bg-gradient-to-tr dark:from-black dark:to-green-900 min-h-screen py-10">
+      <div className="px-20 pt-10">
         <p className="text-5xl text-black dark:text-white pb-10">
           Welcome to my <br />
           Playground

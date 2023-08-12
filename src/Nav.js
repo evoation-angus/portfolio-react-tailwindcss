@@ -6,6 +6,7 @@ import playicon from "./img/toboggan.png";
 import coursesicon from "./img/learning.png";
 import projecticon from "./img/project.png";
 import usericon from "./img/user.png";
+import Hamburger from "./components/Hamburger";
 
 export default function Navbar() {
   const [className, setClassName] = useState("");
@@ -16,8 +17,8 @@ export default function Navbar() {
     );
   }, []);
   return (
-    <nav className="py-4 px-6 text-sm font-medium ">
-      <ul className="flex space-x-3 justify-center">
+    <nav className="bg-slate-100 dark:bg-neutral-900 py-4 px-6 text-sm font-medium fixed z-10 w-full ">
+      <ul className="hidden md:flex space-x-3 justify-center">
         <NavLink id="home" to="/portfolio-react-tailwindcss"  className={({isActive}) => [className, isActive ? "!bg-green-500" : null, ].filter(Boolean).join(" ")}>
           <img className="h-5 icon dark:invert mr-1" src={houseicon} alt="" />
           <span className="text-black dark:text-white">Home</span>
@@ -41,6 +42,7 @@ export default function Navbar() {
         <div className="flex-grow"></div>{" "}
         <Toggle />
       </ul>
+      <Hamburger/>
 
 
       
