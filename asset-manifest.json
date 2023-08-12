@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-react-tailwindcss/static/css/main.27698cef.css",
-    "main.js": "/portfolio-react-tailwindcss/static/js/main.d80976c9.js",
+    "main.js": "/portfolio-react-tailwindcss/static/js/main.02523183.js",
     "static/js/787.28cb0dcd.chunk.js": "/portfolio-react-tailwindcss/static/js/787.28cb0dcd.chunk.js",
     "static/media/FreeCodeCamp_logo.png": "/portfolio-react-tailwindcss/static/media/FreeCodeCamp_logo.4f0f7e63e1a175bcf5bf.png",
     "static/media/toboggan.png": "/portfolio-react-tailwindcss/static/media/toboggan.ad9aa759eb38e7d3a60d.png",
@@ -10,11 +10,11 @@
     "static/media/learning.png": "/portfolio-react-tailwindcss/static/media/learning.3ccc1145ecceff07edab.png",
     "index.html": "/portfolio-react-tailwindcss/index.html",
     "main.27698cef.css.map": "/portfolio-react-tailwindcss/static/css/main.27698cef.css.map",
-    "main.d80976c9.js.map": "/portfolio-react-tailwindcss/static/js/main.d80976c9.js.map",
+    "main.02523183.js.map": "/portfolio-react-tailwindcss/static/js/main.02523183.js.map",
     "787.28cb0dcd.chunk.js.map": "/portfolio-react-tailwindcss/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.27698cef.css",
-    "static/js/main.d80976c9.js"
+    "static/js/main.02523183.js"
   ]
 }
