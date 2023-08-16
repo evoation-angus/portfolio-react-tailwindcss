@@ -25,7 +25,7 @@ export default function Playground() {
             </div>
           </div>
 
-          <a
+          <span
             href="#"
             className="block p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-neutral-900 dark:border-gray-700 "
           >
@@ -36,7 +36,7 @@ export default function Playground() {
               Here are the biggest enterprise technology acquisitions of 2021 so
               far, in reverse chronological order.
             </p>
-          </a>
+          </span>
         </div>
       </div>
     </div>

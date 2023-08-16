@@ -27,8 +27,8 @@ export default function Courses() {
                 </span>
                 <span>
                 {course.provider.includes("fcc") ?
-                <img className="pt-10 dark:invert" src={fcc} />
-                : <div className="flex flex-row items-center pt-3"><div className="flex-grow"></div>{" "}<img className="moocimg " src={mooc} /> <h3 className="mooc pl-5 text-gray-800 dark:text-slate-200">MOOC.fi</h3><div className="flex-grow"></div>{" "}</div>}
+                <img className="pt-10 dark:invert" alt="" src={fcc} />
+                : <div className="flex flex-row items-center pt-3"><div className="flex-grow"></div>{" "}<img className="moocimg " alt="" src={mooc} /> <h3 className="mooc pl-5 text-gray-800 dark:text-slate-200">MOOC.fi</h3><div className="flex-grow"></div>{" "}</div>}
                 </span>
                 
                 <p className="my-6 text-lg text-gray-700 leading-relaxed dark:text-slate-200">

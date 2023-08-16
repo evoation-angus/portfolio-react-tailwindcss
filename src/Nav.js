@@ -29,7 +29,7 @@ export default function Navbar() {
   return (
     <nav className="bg-slate-50 dark:bg-neutral-900 py-4 px-6 text-sm font-medium fixed z-10 w-full ">
       <ul className="hidden md:flex space-x-3 justify-center">
-        <NavLink id="home" to="/portfolio-react-tailwindcss/home"  className={({isActive}) => [className, isActive ? "!bg-green-500" : null, ].filter(Boolean).join(" ")}>
+        <NavLink id="home" to="/portfolio-react-tailwindcss"  className={({isActive}) => [className, isActive ? "!bg-green-500" : null, ].filter(Boolean).join(" ")}>
           <img className="h-5 icon dark:invert mr-1" src={houseicon} alt="" />
           <span className="text-black dark:text-white">Home</span>
         </NavLink>
@@ -80,7 +80,7 @@ export default function Navbar() {
         <ul className="flex flex-col font-medium mt-4 rounded-lg bg-gray-50 dark:bg-gray-800 dark:border-gray-700">
           <li>
             <NavLink 
-              to="/portfolio-react-tailwindcss/home"
+              to="/portfolio-react-tailwindcss"
               className="text-3xl block py-5 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
               aria-current="page"
               onClick={toggleVisibility}

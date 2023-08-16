@@ -32,6 +32,11 @@ function filterDot(input) {
   });
 }
 
+function evaluate(x) {
+  // eslint-disable-next-line  
+  return new Function('return ' + x)();
+}
+
 class Button extends React.Component {
   constructor(props) {
     super(props);
@@ -80,7 +85,7 @@ class Calculator extends React.Component {
       equation = equation.match(/(\*|\+|\/|-)?(\.|-)?\d+/g).join("");
 
       console.log(equation);
-      let result = eval(equation);
+      let result = evaluate(equation);
       this.setState({
         equation: result,
       });

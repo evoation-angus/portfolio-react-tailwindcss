@@ -6,6 +6,7 @@ import Home from "./components/Home/Home"
 import Playground from "./components/Playground/Playground";
 import Courses from "./components/Courses/Courses";
 import Projects from "./components/Projects/Projects";
+import AboutMe from "./components/About-me/AboutMe";
 
 function App() {
   return (
@@ -14,10 +15,11 @@ function App() {
         <BrowserRouter>
           <Navbar />
           <Routes>
-            <Route element={<Home/>} path="/portfolio-react-tailwindcss/home" ></Route>
+            <Route element={<Home/>} path="/portfolio-react-tailwindcss" ></Route>
             <Route element={<Playground/>} path="/portfolio-react-tailwindcss/playground" ></Route>
             <Route element={<Projects/>} path="/portfolio-react-tailwindcss/projects" ></Route>
             <Route element={<Courses/>} path="/portfolio-react-tailwindcss/courses" ></Route>
+            <Route element={<AboutMe/>} path="/portfolio-react-tailwindcss/about-me" ></Route>
           </Routes>
         </BrowserRouter>
       </div>
