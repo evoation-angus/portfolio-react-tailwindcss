@@ -6,7 +6,7 @@ export default function Courses() {
   return (
     <div className="pt-16 bg-gradient-to-tr from-white to-green-300 dark:bg-gradient-to-tr dark:from-black dark:to-green-900 min-h-screen px-10">
       <p className="text-5xl text-black dark:text-white pt-10">Completed Courses</p>
-      <section className="grid md:grid-cols-3 gap-20 sm:grid-cols-1 pt-10">
+      <section className="grid lg:grid-cols-3 md:grid-cols-2 gap-20 sm:grid-cols-1 pt-10">
         {courseData &&
           courseData.map((course, index) => (
             <article className="relative rounded-2xl shadow-xl bg-white dark:bg-neutral-900 p-10 dark:border-gray-700 dark:border" key={course.courseId}>

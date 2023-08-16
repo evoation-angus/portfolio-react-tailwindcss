@@ -49,7 +49,7 @@ class Button extends React.Component {
       <div>
         <button
           id={numberToWrittenForm(this.state.value)}
-          class={
+          className={
             this.state.value === "C"
               ? "btn btn-danger"
               : !isNaN(this.state.value)
@@ -115,65 +115,65 @@ class Calculator extends React.Component {
     return (
       <div>
         <div id="display">{this.state.equation}</div>
-        <div class="buttons">
-          <div class="row">
-            <div class="col-3">
+        <div className="buttons">
+          <div className="row">
+            <div className="col-3">
               <Button sendDataToParent={this.handleDataFromChild} value="7" />
             </div>
-            <div class="col-3">
+            <div className="col-3">
               <Button sendDataToParent={this.handleDataFromChild} value="8" />
             </div>
-            <div class="col-3">
+            <div className="col-3">
               <Button sendDataToParent={this.handleDataFromChild} value="9" />
             </div>
-            <div class="col-3">
+            <div className="col-3">
               <Button sendDataToParent={this.handleDataFromChild} value="+" />
             </div>
           </div>
-          <div class="row">
-            <div class="col-3">
+          <div className="row">
+            <div className="col-3">
               <Button sendDataToParent={this.handleDataFromChild} value="4" />
             </div>
-            <div class="col-3">
+            <div className="col-3">
               <Button sendDataToParent={this.handleDataFromChild} value="5" />
             </div>
-            <div class="col-3">
+            <div className="col-3">
               <Button sendDataToParent={this.handleDataFromChild} value="6" />
             </div>
-            <div class="col-3">
+            <div className="col-3">
               <Button sendDataToParent={this.handleDataFromChild} value="-" />
             </div>
           </div>
-          <div class="row">
-            <div class="col-3">
+          <div className="row">
+            <div className="col-3">
               <Button sendDataToParent={this.handleDataFromChild} value="1" />
             </div>
-            <div class="col-3">
+            <div className="col-3">
               <Button sendDataToParent={this.handleDataFromChild} value="2" />
             </div>
-            <div class="col-3">
+            <div className="col-3">
               <Button sendDataToParent={this.handleDataFromChild} value="3" />
             </div>
-            <div class="col-3">
+            <div className="col-3">
               <Button sendDataToParent={this.handleDataFromChild} value="*" />
             </div>
           </div>
-          <div class="row">
-            <div class="col-3">
+          <div className="row">
+            <div className="col-3">
               <Button sendDataToParent={this.handleDataFromChild} value="0" />
             </div>
-            <div class="col-3">
+            <div className="col-3">
               <Button sendDataToParent={this.handleDataFromChild} value="." />
             </div>
-            <div class="col-3">
+            <div className="col-3">
               <Button sendDataToParent={this.handleDataFromChild} value="=" />
             </div>
-            <div class="col-3">
+            <div className="col-3">
               <Button sendDataToParent={this.handleDataFromChild} value="/" />
             </div>
           </div>
-          <div class="row">
-            <div class="col-3">
+          <div className="row">
+            <div className="col-3">
               <Button sendDataToParent={this.handleDataFromChild} value="C" />
             </div>
           </div>

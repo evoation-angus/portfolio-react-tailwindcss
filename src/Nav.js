@@ -81,7 +81,7 @@ export default function Navbar() {
           <li>
             <NavLink 
               to="/portfolio-react-tailwindcss"
-              className="text-3xl block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
+              className="text-3xl block py-5 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
               aria-current="page"
               onClick={toggleVisibility}
             >
@@ -91,7 +91,7 @@ export default function Navbar() {
           <li>
             <NavLink
               to="/playground"
-              className="text-3xl block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
+              className="text-3xl block py-5 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
               onClick={toggleVisibility}
             >
               Playground
@@ -100,7 +100,7 @@ export default function Navbar() {
           <li>
             <NavLink
               to="/projects"
-              className="text-3xl block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white"
+              className="text-3xl block py-5 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white"
               onClick={toggleVisibility}
             >
               Projects
@@ -109,7 +109,7 @@ export default function Navbar() {
           <li>
             <NavLink
               to="/courses"
-              className="text-3xl block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
+              className="text-3xl block py-5 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
               onClick={toggleVisibility}
             >
               Courses
@@ -118,7 +118,7 @@ export default function Navbar() {
           <li>
             <NavLink
               to="/about-me"
-              className="text-3xl block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
+              className="text-3xl block py-5 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
               onClick={toggleVisibility}
             >
               About me
