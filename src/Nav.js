@@ -53,10 +53,10 @@ export default function Navbar() {
         <Toggle />
       </ul>
       
-      <div className="md:hidden flex-row text-end">
+      <div className="md:hidden flex-row text-start">
       <button
         type="button"
-        className="inline-flex items-center justify-center p-2 w-10 h-10 ml-3 text-sm text-gray-500 rounded-lg hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+        className="inline-flex items-center justify-center p-2 w-10 h-10  text-sm text-gray-500 rounded-lg hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
         onClick={toggleVisibility}
       >
         <span className="sr-only">Open main menu</span>
@@ -76,12 +76,12 @@ export default function Navbar() {
           />
         </svg>
       </button>
-      <div className="hidden w-full text-center" id="navbar-hamburger">
+      <div className="hidden w-full min-h-screen text-center" id="navbar-hamburger">
         <ul className="flex flex-col font-medium mt-4 rounded-lg bg-gray-50 dark:bg-gray-800 dark:border-gray-700">
           <li>
             <NavLink 
               to="/portfolio-react-tailwindcss"
-              className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
+              className="text-3xl block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
               aria-current="page"
               onClick={toggleVisibility}
             >
@@ -91,7 +91,7 @@ export default function Navbar() {
           <li>
             <NavLink
               to="/playground"
-              className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
+              className="text-3xl block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
               onClick={toggleVisibility}
             >
               Playground
@@ -100,7 +100,7 @@ export default function Navbar() {
           <li>
             <NavLink
               to="/projects"
-              className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white"
+              className="text-3xl block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white"
               onClick={toggleVisibility}
             >
               Projects
@@ -109,7 +109,7 @@ export default function Navbar() {
           <li>
             <NavLink
               to="/courses"
-              className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
+              className="text-3xl block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
               onClick={toggleVisibility}
             >
               Courses
@@ -118,7 +118,7 @@ export default function Navbar() {
           <li>
             <NavLink
               to="/about-me"
-              className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
+              className="text-3xl block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
               onClick={toggleVisibility}
             >
               About me
