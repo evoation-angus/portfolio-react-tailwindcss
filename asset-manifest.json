@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/portfolio-react-tailwindcss/home/static/css/main.6b36d37b.css",
-    "main.js": "/portfolio-react-tailwindcss/home/static/js/main.6002387e.js",
-    "static/js/787.28cb0dcd.chunk.js": "/portfolio-react-tailwindcss/home/static/js/787.28cb0dcd.chunk.js",
-    "static/media/FreeCodeCamp_logo.png": "/portfolio-react-tailwindcss/home/static/media/FreeCodeCamp_logo.4f0f7e63e1a175bcf5bf.png",
-    "static/media/toboggan.png": "/portfolio-react-tailwindcss/home/static/media/toboggan.ad9aa759eb38e7d3a60d.png",
-    "static/media/moon.png": "/portfolio-react-tailwindcss/home/static/media/moon.e5585e508bad58301c6c.png",
-    "static/media/project.png": "/portfolio-react-tailwindcss/home/static/media/project.f6ec687323f508a366a2.png",
-    "static/media/learning.png": "/portfolio-react-tailwindcss/home/static/media/learning.3ccc1145ecceff07edab.png",
-    "index.html": "/portfolio-react-tailwindcss/home/index.html",
-    "main.6b36d37b.css.map": "/portfolio-react-tailwindcss/home/static/css/main.6b36d37b.css.map",
-    "main.6002387e.js.map": "/portfolio-react-tailwindcss/home/static/js/main.6002387e.js.map",
-    "787.28cb0dcd.chunk.js.map": "/portfolio-react-tailwindcss/home/static/js/787.28cb0dcd.chunk.js.map"
+    "main.css": "/portfolio-react-tailwindcss/static/css/main.6b36d37b.css",
+    "main.js": "/portfolio-react-tailwindcss/static/js/main.71bdb650.js",
+    "static/js/787.28cb0dcd.chunk.js": "/portfolio-react-tailwindcss/static/js/787.28cb0dcd.chunk.js",
+    "static/media/FreeCodeCamp_logo.png": "/portfolio-react-tailwindcss/static/media/FreeCodeCamp_logo.4f0f7e63e1a175bcf5bf.png",
+    "static/media/toboggan.png": "/portfolio-react-tailwindcss/static/media/toboggan.ad9aa759eb38e7d3a60d.png",
+    "static/media/moon.png": "/portfolio-react-tailwindcss/static/media/moon.e5585e508bad58301c6c.png",
+    "static/media/project.png": "/portfolio-react-tailwindcss/static/media/project.f6ec687323f508a366a2.png",
+    "static/media/learning.png": "/portfolio-react-tailwindcss/static/media/learning.3ccc1145ecceff07edab.png",
+    "index.html": "/portfolio-react-tailwindcss/index.html",
+    "main.6b36d37b.css.map": "/portfolio-react-tailwindcss/static/css/main.6b36d37b.css.map",
+    "main.71bdb650.js.map": "/portfolio-react-tailwindcss/static/js/main.71bdb650.js.map",
+    "787.28cb0dcd.chunk.js.map": "/portfolio-react-tailwindcss/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6b36d37b.css",
-    "static/js/main.6002387e.js"
+    "static/js/main.71bdb650.js"
   ]
 }
