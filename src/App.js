@@ -14,10 +14,10 @@ function App() {
         <BrowserRouter>
           <Navbar />
           <Routes>
-            <Route element={<Home/>} path="/portfolio-react-tailwindcss" ></Route>
-            <Route element={<Playground/>} path="/playground" ></Route>
-            <Route element={<Projects/>} path="/projects" ></Route>
-            <Route element={<Courses/>} path="/courses" ></Route>
+            <Route element={<Home/>} path="/portfolio/home" ></Route>
+            <Route element={<Playground/>} path="/portfolio/playground" ></Route>
+            <Route element={<Projects/>} path="/portfolio/projects" ></Route>
+            <Route element={<Courses/>} path="/portfolio/courses" ></Route>
           </Routes>
         </BrowserRouter>
       </div>
