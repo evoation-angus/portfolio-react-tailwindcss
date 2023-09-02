@@ -21,7 +21,7 @@
         "courseId": 2,
         "title": "Java Programming I",
         "date": "August 2021",
-        "body": "Sample Text",
+        "body": "A core Java development course that teaches the fundamentals of programming",
         "tags": ["Java", "Object Orientated Programming"],
         "link": "https://certificates.mooc.fi/validate/ad9nnsau4ub",
         "provider": "mooc"

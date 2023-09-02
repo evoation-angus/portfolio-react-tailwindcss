@@ -47,9 +47,7 @@ export default function Courses() {
                 <div className="justify-center mt-5 flex flex-wrap">
                   {course.tags &&
                     course.tags.map((tag, index) => (
-                      <div id={index} className="py-2 px-4 shadow-md rounded-xl bg-gray-100 text-gray-700 font-mono text-xs mr-2 mt-2">
-                        {tag}
-                      </div>
+                      <span class="bg-green-200 text-green-900 text-sm font-medium mr-2 px-2.5 py-0.5 my-1 rounded-3xl dark:bg-green-900 dark:text-green-300">{tag}</span>
                     ))}
                 </div>
               </div>
